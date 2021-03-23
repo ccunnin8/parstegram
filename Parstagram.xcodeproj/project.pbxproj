@@ -16,6 +16,7 @@
 		259AE98F2602AE50002E5F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259AE98D2602AE50002E5F63 /* Main.storyboard */; };
 		259AE9912602AE52002E5F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259AE9902602AE52002E5F63 /* Assets.xcassets */; };
 		259AE9942602AE52002E5F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259AE9922602AE52002E5F63 /* LaunchScreen.storyboard */; };
+		25FD3AB0260A44020055238A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FD3AAF260A44020055238A /* CommentCell.swift */; };
 		664B06168928CE1323DA3C43 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAF3EC0B8746CEF81277F55 /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		259AE9902602AE52002E5F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		259AE9932602AE52002E5F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259AE9952602AE52002E5F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FD3AAF260A44020055238A /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		2FC8BBB3D0B91DB266318465 /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 		4AAF3EC0B8746CEF81277F55 /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				251E6D2F2602B1D900C08C8F /* LoginViewController.swift */,
 				253C782C2603731800265B23 /* CameraViewController.swift */,
 				253C782E2603A7DD00265B23 /* PostCell.swift */,
+				25FD3AAF260A44020055238A /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -129,7 +132,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Corey Cunningham MacbookAir";
 				TargetAttributes = {
 					259AE9832602AE4F002E5F63 = {
@@ -221,6 +224,7 @@
 				259AE9882602AE50002E5F63 /* AppDelegate.swift in Sources */,
 				259AE98A2602AE50002E5F63 /* SceneDelegate.swift in Sources */,
 				253C782F2603A7DD00265B23 /* PostCell.swift in Sources */,
+				25FD3AB0260A44020055238A /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +276,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -332,6 +337,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
